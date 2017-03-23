@@ -1,12 +1,6 @@
 <% if @message %>
-  <div class="center alert">
-    <p><%= @message %></p>
-  </div>
+  <p><%= @message.inspect %></p>
 <% end %>
-<div class="pic">
-  <img src="http://8900-presscdn-0-84.pagely.netdna-cdn.com/wp-content/themes/beautycon/assets/img/avatar-grey.png" height="250" data-pin-nopin="true">
-</div>
-
 
 <div>
   <% if @user.admin %>
